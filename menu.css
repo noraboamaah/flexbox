@@ -1,0 +1,109 @@
+*{
+	font-style: verdana;
+	margin: 0;
+}
+body{
+	background: #eee;
+}
+
+.wrapper{
+	width: 100%;
+	min-width: 960px;
+}
+
+nav{
+	background: #333;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+
+
+nav a{
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	color: #fff;
+}
+
+nav a:hover{
+	background: #555;
+}
+
+
+/*Grid vs flex layout*/
+article{
+	
+	background: #fff;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.block{
+	margin: 20px;
+}
+
+article h2{
+	text-align: center;
+	padding: 10px 0;
+	font-size: 15px;
+}
+
+
+
+a.fb{
+	background: url(facebook.jpg) no-repeat;
+	background-size: 60%;
+}
+
+a.tw{
+	background: url(twitter.jpg) no-repeat;
+	background-size: 60%;
+}
+
+
+.social a {
+	text-indent: -10000px;
+}
+
+nav .social{
+	display: flex;
+	flex: 1 1 0;
+}
+
+
+@media screen and (min-width: 768px){
+	nav ul{
+		display: flex;
+	}
+
+	nav li{
+		flex: 1 1 0;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.block{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	
+	}
+
+	article{
+		flex:0 1 32%;
+	}
+
+	article.stack{
+		flex:0 1 100%;
+	}
+
+
+}

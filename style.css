@@ -1,0 +1,78 @@
+*{
+	font-family: verdana;
+	margin: 0;
+}
+
+body{
+	background: #eee;
+}
+
+.wrapper{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	
+}
+
+
+.flex-container{
+	display: flex;
+	background: #fff;
+	flex-wrap: wrap;
+}
+
+.box{
+	height: 100px;
+	min-width: 100px;
+}
+
+.one{
+	background: red;
+	flex-grow: 3;
+}
+
+.two{
+	background: blue;
+	flex-grow: 6;
+}
+
+.three{
+	background: green;
+	flex-grow: 3;
+}
+
+
+/*Use flex-grow to expand items into a  flex container; values are given in ratios. 
+ The bigger the number, the higher the growth rate. or you can just use the column grid system which is 12 as a total column.
+
+
+Use flex-shrink to determine the rate at which the flex items shrink as the browser gets smaller. 
+ The higher the number, the higher the shrink rate. The measurement with shrink is also relative.
+
+
+Use flex-wrap to the flex container to add a responsive behaviour to the flex item.
+ That is, the flex-items will break to the next line when the minimum with is exceeded.
+ The values for flex-wrap are: wrap, wrap-reverse, nowrap.
+
+
+Use flex-basis instead of min-width to take care of the irresponsivity when the minimum width is exceeded.
+
+FLEX SHORTHAND NOTATION
+ eg:1 
+
+ flex: 1 0 400px;
+
+ 1 = flex-grow;
+ 0 = flex-shrink;
+ 400 = flex-basis;
+
+ eg:2
+
+ flex: 1
+
+ flex-grow: 1;
+ flex-shrink: 1;
+ flex-basis: 0;*/
+
+
+ 
