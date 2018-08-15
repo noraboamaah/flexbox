@@ -1,0 +1,64 @@
+*{
+	margin: 0
+}
+
+header{
+	background-image: linear-gradient(to right, #a25b5b, #692e4c);
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1.5em;
+}
+
+a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+#upperHead{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#upperHead > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+
+nav > a{
+	margin: 10px 10px;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+h3{
+	margin: 0;
+}
+
+.flex, 
+.row{
+	display: flex;
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.col{
+	flex: 1;
+	padding: 10px;
+}
+
+.box{
+	background-color: #eee;
+	height: 100px;
+}
