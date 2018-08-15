@@ -1,3 +1,5 @@
+
+
 html, body{
 	height: 100%;
 }
@@ -6,6 +8,8 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
+
 .card{
 	display: flex;
 	justify-content: center;
@@ -14,6 +18,7 @@ body{
 	width:45%;
 	height: 40%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+	border-radius: 3%;
 }
 
 .image{
@@ -24,11 +29,13 @@ body{
 	margin: 10px;
     display: flex;
     flex-direction: column;
+    border-radius: 3%;
     align-items: center;
     justify-content: space-around;
     background-color: blue;
     height: 100%;
     width:100%;
+    text-align: center;
 }
 
 .card-right{
@@ -52,4 +59,10 @@ body{
 
 #lessons, #time{
 	margin-left: 1em;
+}
+
+.card-left-title{
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 12%;
+	width: 4.5vw;	
 }
